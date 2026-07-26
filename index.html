@@ -534,6 +534,44 @@ Galeri
 
 </section>
 
+
+<section>
+
+<div class="card">
+
+<div class="title">
+🎁 Wedding Gift
+</div>
+
+<p>
+Doa restu Anda merupakan karunia yang sangat berarti bagi kami.
+Apabila ingin memberikan tanda kasih, dapat melalui rekening berikut:
+</p>
+
+<br>
+
+<img src="QR_BNI_Horas_Mangari_Sirait.png"
+alt="QR Rekening BNI"
+style="width:250px;border-radius:15px;box-shadow:0 5px 20px rgba(0,0,0,.2);">
+
+<br><br>
+
+<h3>Bank BNI</h3>
+
+<p><b>736323797</b></p>
+
+<p>a.n. Horas Mangari Sirait</p>
+
+<br>
+
+<button class="btn" onclick="copyRekening()">
+📋 Salin Nomor Rekening
+</button>
+
+</div>
+
+</section>
+
 <section>
 
 <div class="title">
@@ -550,7 +588,7 @@ href="https://maps.app.goo.gl/dKabSqdEZPyBRYEH8">
 
 Lihat Google Maps Pemberkatan Kudus
 
-</div>
+</a>
 
 <a class="btn"
 
@@ -634,6 +672,13 @@ audio.pause();
 }
 
 }
+
+
+function copyRekening(){
+navigator.clipboard.writeText("736323797");
+alert("Nomor rekening berhasil disalin.");
+}
+
 
 const tujuan=new Date("Oct 09, 2026 09:00:00").getTime();
 
