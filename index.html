@@ -17,7 +17,7 @@ section{padding:82px 18px}.container{width:min(1080px,100%);margin:auto}.kicker{
 .events{text-align:center}.event-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:38px}.event-card{text-align:center}.event-icon{font-size:34px;margin-bottom:12px}.event-card h3{font-family:Cinzel;color:var(--wine)}.event-date{font-family:Cinzel;color:var(--gold);letter-spacing:.12em;margin:12px 0}.event-card p{line-height:1.8;color:var(--muted)}.btn-row{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-top:18px}.btn.outline{background:transparent;color:var(--wine);border:1px solid var(--wine);box-shadow:none}
 .countdown-wrap{background:var(--wine);color:#fff;text-align:center}.countdown-wrap .section-title{color:#fff}.countdown-wrap .section-subtitle{color:rgba(255,255,255,.78)}.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:720px;margin:34px auto}.count-box{padding:18px 8px;border:1px solid rgba(255,255,255,.22);border-radius:18px;background:rgba(255,255,255,.08)}.count-box strong{display:block;font-family:Cinzel;font-size:30px;color:#f4dda7}.count-box span{font-size:10px;text-transform:uppercase;letter-spacing:.14em;opacity:.8}
 .gallery-section{text-align:center;background:var(--paper)}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:36px}.gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:20px;box-shadow:0 10px 28px rgba(54,24,31,.1);transition:.35s}.gallery img:hover{transform:translateY(-4px) scale(1.015)}
-.gift-section{text-align:center;background:#f7f0e7}.gift-card{max-width:780px;margin:34px auto}.bank-name{font-family:Cinzel;color:var(--wine);font-size:20px}.qr{width:190px;height:190px;object-fit:contain;background:white;padding:10px;border-radius:18px;margin:16px auto;border:1px solid var(--line)}.account{font-family:Cinzel;font-size:24px;letter-spacing:.08em}.account-name{color:var(--muted);margin-top:8px}.copy-btn{margin-top:18px;padding:11px 20px;border:1px solid var(--wine);border-radius:999px;background:transparent;color:var(--wine)}.copy-btn:hover{background:var(--wine);color:white}
+.gift-section{text-align:center;background:#f7f0e7}.gift-card{max-width:780px;margin:34px auto}.bank-name{font-family:Cinzel;color:var(--wine);font-size:20px}.qr{width:190px;height:190px;object-fit:contain;background:white;padding:10px;border-radius:18px;margin:16px auto;border:1px solid var(--line)}.account{font-family:Cinzel;font-size:24px;letter-spacing:.08em}.account-name{color:var(--muted);margin-top:8px}.gift-account{padding:4px 0}.copy-btn{margin-top:18px;padding:11px 20px;border:1px solid var(--wine);border-radius:999px;background:transparent;color:var(--wine)}.copy-btn:hover{background:var(--wine);color:white}
 .location{text-align:center}.location .section-subtitle{max-width:720px}.rsvp-note{margin-top:22px;color:var(--muted);line-height:1.8}footer{text-align:center;background:var(--dark);color:white;padding:68px 20px}footer h2{font-family:"Great Vibes";font-size:60px;font-weight:400}footer p{max-width:620px;margin:15px auto;line-height:1.8;color:rgba(255,255,255,.78)}footer strong{font-family:Cinzel;color:#ead39b}
 .music-btn{position:fixed;right:18px;bottom:18px;z-index:90;width:54px;height:54px;border-radius:50%;border:1px solid rgba(255,255,255,.5);background:var(--wine);color:white;box-shadow:0 10px 25px rgba(0,0,0,.2)}.music-btn.playing{animation:spin 4s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
 @media(max-width:800px){.couple-grid,.event-grid{grid-template-columns:1fr}.heart{order:2}.gallery{grid-template-columns:repeat(2,1fr)}}
@@ -40,7 +40,23 @@ section{padding:82px 18px}.container{width:min(1080px,100%);margin:auto}.kicker{
 
 <section class="gallery-section"><div class="container"><div class="kicker">Momen Bahagia</div><h2 class="section-title">Galeri</h2><p class="section-subtitle">Beberapa momen yang ingin kami bagikan bersama Anda.</p><div class="gallery"><img class="reveal" src="Foto1.jpg.JPG" alt="Foto 1"><img class="reveal" src="Foto2.jpg.JPG" alt="Foto 2"><img class="reveal" src="Foto3.jpg.JPG" alt="Foto 3"><img class="reveal" src="Foto4.jpg.JPG" alt="Foto 4"><img class="reveal" src="Foto5.jpg.JPG" alt="Foto 5"><img class="reveal" src="Foto6.jpg.JPG" alt="Foto 6"></div></div></section>
 
-<section class="gift-section"><div class="container"><div class="kicker">Wedding Gift</div><h2 class="section-title">Tanda Kasih</h2><p class="section-subtitle">Doa restu Anda merupakan karunia yang sangat berarti bagi kami. Jika memberi adalah ungkapan tanda kasih, Anda dapat memberi melalui rekening berikut.</p><div class="gift-card card reveal"><div class="bank-name">BANK BNI</div><img class="qr" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQgAAAEIAQAAAACLjVdSAAABkklEQVR4nO2Zy67DQAhDj6P8/y/7LoA8qit1VYI6TRedzHjhICDGkXlzbe8AP8QXI3ZQrCwLg7B87o5h2hYPDCCQJWPJ8rk7hWlfPNDx9JkfXHanMG1HuP7kjMgzPKYghBESSP4X0cPjUcQOlRmWgGyqPvJlCtMeBK5U8Muvjqcw7UHopseU+bFuvWCfKYIjXxybZr382DkUGCXCjjvLc5i2xcOgrBIjZGUZRVymMG1DSIKQHCJqBouQqqOYNiB2alw5q8Tn3XL1spEarBqIQqcLxIL1EvOcUoYZWY6qkQGtNt9uEBLdhDytSlE1k0lMP49Qia9KiosUi7MpTDvn/QxENY2QqdlSpjBtrJeSHSlPBZa95DxXfhCRH0bGMfAv6QfFvFJrfDtivfnl1j5TmB0rvGI/PZx0MjwKczkEyRimnXqM8tdzxVlDY5j29tO0DLNIRFnsq9XLC6LMMRMfYp7iMQFhp10oQb2ARzL9IOLir8flFKhhhCznf9TD14eGesPkkNvGYwri7q8/x+OHmIn4A0cVwPzsXf4WAAAAAElFTkSuQmCC" alt="QR informasi rekening BNI"><div class="account">736323797</div><div class="account-name">a.n. Horas Mangari Sirait</div><button class="copy-btn" id="copyAccount">Salin Nomor Rekening</button><p id="copyMessage" style="margin-top:12px;color:var(--wine);font-size:12px"></p><p style="margin-top:18px;font-size:11px;color:var(--muted)">QR ini berisi informasi rekening BNI, bukan QRIS pembayaran.</p></div></div></section>
+<section class="gift-section"><div class="container"><div class="kicker">Wedding Gift</div><h2 class="section-title">Tanda Kasih</h2><p class="section-subtitle">Doa restu Anda merupakan karunia yang sangat berarti bagi kami. Jika memberi adalah ungkapan tanda kasih, Anda dapat memberi melalui rekening berikut.</p><div class="gift-card card reveal">
+<div class="bank-name">BANK BNI</div>
+
+<div class="gift-account">
+<div class="account">736323797</div>
+<div class="account-name">a.n. Horas Mangari Sirait</div>
+<button class="copy-btn" data-account="736323797">Salin Nomor Rekening</button>
+<p class="copy-message"></p>
+</div>
+
+<div class="gift-account" style="margin-top:28px;padding-top:28px;border-top:1px solid var(--line)">
+<div class="account">917461892</div>
+<div class="account-name">a.n. Ristauli Selfiana Br Nadeak</div>
+<button class="copy-btn" data-account="917461892">Salin Nomor Rekening</button>
+<p class="copy-message"></p>
+</div>
+</div></div></section>
 
 <section class="location"><div class="container"><div class="kicker">Lokasi &amp; Konfirmasi</div><h2 class="section-title">Kami Menantikan Kehadiran Anda</h2><p class="section-subtitle">Silakan gunakan tombol berikut untuk melihat lokasi acara atau mengonfirmasi kehadiran.</p><div class="btn-row"><a class="btn" target="_blank" rel="noopener" href="https://maps.app.goo.gl/dKabSqdEZPyBRYEH8">Peta Pemberkatan</a><a class="btn outline" target="_blank" rel="noopener" href="https://maps.app.goo.gl/rxHTd8mTkrD9dHJS9">Peta Acara Adat</a><a class="btn" target="_blank" rel="noopener" href="https://wa.me/6287788471387">Konfirmasi Kehadiran</a></div><p class="rsvp-note">Terima kasih atas doa, kasih, dan kehadiran Bapak/Ibu/Saudara/i.</p></div></section>
 <footer><div class="container"><h2>Horas!</h2><p>Merupakan suatu kebahagiaan dan kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kami.</p><strong>Tuhan Yesus Memberkati</strong></div></footer>
@@ -54,6 +70,18 @@ openBtn.addEventListener("click",async()=>{opening.classList.add("hide");documen
 musicBtn.addEventListener("click",async()=>{if(audio.paused){try{await audio.play();musicBtn.classList.add("playing")}catch(e){}}else{audio.pause();musicBtn.classList.remove("playing")}});
 const target=new Date("2026-10-09T09:00:00+07:00").getTime();function updateCountdown(){const x=Math.max(0,target-Date.now());document.getElementById("hari").textContent=Math.floor(x/86400000);document.getElementById("jam").textContent=Math.floor(x%86400000/3600000);document.getElementById("menit").textContent=Math.floor(x%3600000/60000);document.getElementById("detik").textContent=Math.floor(x%60000/1000)}updateCountdown();setInterval(updateCountdown,1000);
 const observer=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add("show")}),{threshold:.12});document.querySelectorAll(".reveal").forEach(x=>observer.observe(x));
-document.getElementById("copyAccount").addEventListener("click",async()=>{try{await navigator.clipboard.writeText("736323797");document.getElementById("copyMessage").textContent="Nomor rekening berhasil disalin ✓"}catch(e){document.getElementById("copyMessage").textContent="Salin manual: 736323797"}setTimeout(()=>document.getElementById("copyMessage").textContent="",2500)});
+document.querySelectorAll(".copy-btn").forEach(btn=>{
+btn.addEventListener("click",async()=>{
+const account=btn.dataset.account;
+const message=btn.nextElementSibling;
+try{
+await navigator.clipboard.writeText(account);
+message.textContent="Nomor rekening berhasil disalin ✓";
+}catch(e){
+message.textContent="Salin manual: "+account;
+}
+setTimeout(()=>message.textContent="",2500);
+});
+});document.getElementById("copyMessage").textContent="Nomor rekening berhasil disalin ✓"}catch(e){document.getElementById("copyMessage").textContent="Salin manual: 736323797"}setTimeout(()=>document.getElementById("copyMessage").textContent="",2500)});
 </script>
 </body></html>
